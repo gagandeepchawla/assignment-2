@@ -1,4 +1,4 @@
-# Given 2 ints, a and b, return their sum. However, sums in the range 10..19 inclusive, are forbidden, so in that case just return 20.
+    # Given 2 ints, a and b, return their sum. However, sums in the range 10..19 inclusive, are forbidden, so in that case just return 20.
 class twosum:
     def sum(self,number1, number2):
         add = number1 + number2
@@ -11,12 +11,10 @@ class twosum:
         else:
             print check1
 
-    # def insert(self):
-    #     first = raw_input("Enter the First Number\n")
-    #     second = raw_input("Enter the second Number\n")
-    #     self.check(first, second)
+    def insert(self):
+        first = int(raw_input("Enter the First Number\n"))
+        second = int(raw_input("Enter the second Number\n"))
+        self.check(first, second)
 
 n = twosum()
-n.check(3, 4)
-n.check(9, 4)
-n.check(10, 11)
+n.insert()
